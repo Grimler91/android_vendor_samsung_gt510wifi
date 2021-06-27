@@ -16,10 +16,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/lib/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.msm8916.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8916.so \
-    vendor/samsung/gt510wifi/proprietary/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-sec-disp.so \
     vendor/samsung/gt510wifi/proprietary/lib/libAl_Awb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb.so \
     vendor/samsung/gt510wifi/proprietary/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb_Sp.so \
-    vendor/samsung/gt510wifi/proprietary/lib/libSamsungPkcs11Wrapper.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/gt510wifi/proprietary/lib/libSamsungPostProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPostProcess.so \
     vendor/samsung/gt510wifi/proprietary/lib/libSamsungPreProcess.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSamsungPreProcess.so \
     vendor/samsung/gt510wifi/proprietary/lib/libSoundAlive_VSP_ver315b_arm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libSoundAlive_VSP_ver315b_arm.so \
@@ -63,7 +61,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/lib/libseccameracore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libseccameracore.so \
     vendor/samsung/gt510wifi/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so \
     vendor/samsung/gt510wifi/proprietary/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libaudiosaplus_sec.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-sec-disp.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libQjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQjpeg.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/libSamsungPkcs11Wrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPkcs11Wrapper.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libactuator_dw9804_rossa_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_rossa_camcorder.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libactuator_dw9804_rossa_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9804_rossa_camera.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libchromatix_sr544_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sr544_common.so \
