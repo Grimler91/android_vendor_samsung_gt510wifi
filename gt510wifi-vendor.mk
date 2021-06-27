@@ -14,8 +14,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/etc/Headset_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Headset_cal.acdb \
     vendor/samsung/gt510wifi/proprietary/etc/Speaker_cal.acdb:$(TARGET_COPY_OUT_SYSTEM)/etc/Speaker_cal.acdb \
     vendor/samsung/gt510wifi/proprietary/lib/hw/audio.primary.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.primary.msm8916.so \
-    vendor/samsung/gt510wifi/proprietary/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/camera.vendor.msm8916.so \
-    vendor/samsung/gt510wifi/proprietary/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/sensors.vendor.msm8916.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/hw/camera.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.vendor.msm8916.so \
+    vendor/samsung/gt510wifi/proprietary/vendor/lib/hw/sensors.vendor.msm8916.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.vendor.msm8916.so \
     vendor/samsung/gt510wifi/proprietary/lib/lib-sec-disp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/lib-sec-disp.so \
     vendor/samsung/gt510wifi/proprietary/lib/libAl_Awb.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb.so \
     vendor/samsung/gt510wifi/proprietary/lib/libAl_Awb_Sp.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libAl_Awb_Sp.so \
@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/lib/libaudioroute.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaudioroute.so \
     vendor/samsung/gt510wifi/proprietary/lib/libawb_algo_front.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_front.so \
     vendor/samsung/gt510wifi/proprietary/lib/libawb_algo_rear_al.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libawb_algo_rear_al.so \
-    vendor/samsung/gt510wifi/proprietary/lib/libcamera_metadata.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcamera_metadata.so \
     vendor/samsung/gt510wifi/proprietary/lib/libcodecsolution.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcodecsolution.so \
     vendor/samsung/gt510wifi/proprietary/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfloatingfeature.so \
     vendor/samsung/gt510wifi/proprietary/lib/libjpeg.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjpeg.so \
@@ -62,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/gt510wifi/proprietary/lib/libsamsungpowersound.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsamsungpowersound.so \
     vendor/samsung/gt510wifi/proprietary/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudioinfo.so \
     vendor/samsung/gt510wifi/proprietary/lib/libseccameracore.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libseccameracore.so \
-    vendor/samsung/gt510wifi/proprietary/lib/libtinyalsa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinyalsa.so \
     vendor/samsung/gt510wifi/proprietary/lib/libtinycompress.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtinycompress.so \
     vendor/samsung/gt510wifi/proprietary/lib/soundfx/libaudiosaplus_sec.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libaudiosaplus_sec.so \
     vendor/samsung/gt510wifi/proprietary/vendor/lib/libQjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQjpeg.so \
